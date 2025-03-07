@@ -13,7 +13,7 @@ const About = () => {
             <button className="read-more">Read Full Story</button>
         </div>
         <div className="news-placeholder">
-            <h3>Get the recent updates...</h3>
+            <h3>Getting the recent updates...</h3>
         </div>
         </div>
     );

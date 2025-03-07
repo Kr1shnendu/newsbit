@@ -9,7 +9,7 @@
     border-radius: 30px;
     background: #212121;
     box-shadow: 10px 10px 20px rgb(25, 25, 25),
-             -10px -10px 20px rgb(60, 60, 60);
+            -10px -10px 20px rgb(60, 60, 60);
     margin-top: 20px;
 }
 
@@ -54,7 +54,6 @@
 }
 
 .news-description {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-size: 14px;
     color: #ffffffc7;
     line-height: 1.4;

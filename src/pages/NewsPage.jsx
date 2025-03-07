@@ -1,6 +1,5 @@
-import React from 'react'
-import { useEffect, useState } from 'react';
-import { fetchTrendingMovies } from '../api.js';
+import React, { useEffect, useState } from 'react';
+import { fetchNews } from '../api.js';
 import NewsCard from '../component/NewsCard.jsx';
 import '../css/NewsPage.css';
 
@@ -8,7 +7,7 @@ const NewsPage = () => {
 
     const [data, setData] = useState(null);
     useEffect(() => {
-        fetchTrendingMovies().then((data) => {
+        fetchNews().then((data) => {
         console.log(data);
         setData(data);
         }
@@ -16,7 +15,7 @@ const NewsPage = () => {
     }, [])
         
   return (
-    <div className='news-container'>
+    <div className='news-container' id='news'>
     {data &&
         data.map((news, index) => {
         return (

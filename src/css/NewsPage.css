@@ -7,7 +7,7 @@
 }
 
 /* Responsive Design */
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .news-container {
         grid-template-columns: repeat(3, 1fr);
     }

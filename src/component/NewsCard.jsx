@@ -1,12 +1,12 @@
-import "../css/NewsCard.css";
 import template from "../assets/news_template.jpeg";
+import "../css/NewsCard.css";
 
 const NewsCard = ({ news }) => {
     return (
         <div className="news-card">
             <a href={news.url} target="_blank" rel="noopener noreferrer">
                 <img 
-                    src={news.urlToImage} 
+                    src={news.urlToImage || template} 
                     alt={news.title} 
                     className="news-image" 
                     onError={(e) => e.target.src = template} 
