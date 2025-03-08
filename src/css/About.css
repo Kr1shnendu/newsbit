@@ -1,6 +1,5 @@
 .about-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     text-align: left;
     margin-top: 20px;
@@ -52,8 +51,7 @@
     background-image: url('../assets/front_img.jpeg');
     background-size: cover;
     padding: 10px;
-    box-shadow: 10px 10px 20px rgb(25, 25, 25),
-            -10px -10px 20px rgb(60, 60, 60);
+    box-shadow: 10px 10px 20px rgb(25, 25, 25), -10px -10px 20px rgb(60, 60, 60);
   }
 
   

@@ -16,7 +16,7 @@ const NewsPage = () => {
         
   return (
     <div className='news-container' id='news'>
-    {data &&
+    {data &&//   ?
         data.map((news, index) => {
         return (
             <div key={index}>
@@ -24,7 +24,7 @@ const NewsPage = () => {
             </div>
         )
         }
-        )
+        )     //      : <p>Loading...</p>
     }
     </div>
   )
