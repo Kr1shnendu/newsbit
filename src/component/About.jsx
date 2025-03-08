@@ -1,9 +1,8 @@
 import "../css/About.css";
-import template from "../assets/news_template.jpeg";
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div className="about-container" id="about">
         <div className="news-section">
             <h1><span>Breaking News </span>From Around The World</h1>
             <p>
